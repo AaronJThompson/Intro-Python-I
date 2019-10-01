@@ -46,5 +46,9 @@ waypoints.append({
 # value is -130 and change its name to "not a real place"
 # YOUR CODE HERE
 
+a_place = waypoints[0]
+a_place["lon"] = -130
+a_place["name"] = "not a real place"
+
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE

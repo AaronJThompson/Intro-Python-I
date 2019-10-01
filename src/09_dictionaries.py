@@ -52,3 +52,8 @@ a_place["name"] = "not a real place"
 
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
+
+for waypoint in waypoints:
+    for field in waypoint:
+        print(f"{field}: {waypoint[field]}")
+    print("\n")

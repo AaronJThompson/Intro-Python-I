@@ -17,3 +17,9 @@ with open('foo.txt') as foo:
 # sure that it contains what you expect it to contain
 
 # YOUR CODE HERE
+
+bar = open('bar.txt', 'w+')
+bar.write("Line 1\n")
+bar.write("Line 2\n")
+bar.write("Line 3\n")
+bar.close()
